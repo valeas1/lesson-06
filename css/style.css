@@ -33,11 +33,12 @@
 
 .header .logo {
   float: left;
+  margin-left: 3px;
 }
 
 .header .menu {
   float: right;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .header .menu .link {
@@ -45,7 +46,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
-  margin-left: 41px;
+  margin-left: 40px;
 }
 
 .header .menu .link:hover {
@@ -63,7 +64,7 @@
 
 .design-img {
   float: left;
-  padding-top: 15px;
+  padding-top: 12px;
 }
 
 .design_article {
@@ -74,15 +75,16 @@
 
 .design_article-title {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 79px;
   color: #000000;
-  padding-bottom: 54px;
+  padding-bottom: 33px;
+  margin-top: -22px;
 }
 
 .design_article-text {
   color: #727272;
-  padding-bottom: 82px;
+  padding-bottom: 73px;
 }
 
 .design_article-btn {
@@ -95,17 +97,17 @@
 }
 
 .work {
-  padding-top: 55px;
+  padding-top: 45px;
   padding-bottom: 95px;
 }
 
 .work-title {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 56px;
   text-align: center;
   color: #000000;
-  padding-bottom: 33px;
+  padding-bottom: 22px;
 }
 
 .work-text {
@@ -113,7 +115,7 @@
   color: #727272;
   width: 540px;
   margin: 0 auto;
-  padding-bottom: 57px;
+  padding-bottom: 50px;
 }
 
 .example {
@@ -123,7 +125,7 @@
 
 .example-img {
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   float: left;
 }
 
@@ -136,7 +138,7 @@
 }
 
 .footer {
-  padding-top: 42px;
+  padding-top: 39px;
   padding-bottom: 38px;
 }
 
@@ -149,7 +151,7 @@
   font-size: 21px;
   line-height: 25px;
   color: #FFFFFF;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 .footer-left-text {
@@ -164,6 +166,6 @@
 }
 
 .footer-right a {
-  margin-left: 32px;
+  margin-left: 27px;
 }
 /*# sourceMappingURL=style.css.map */

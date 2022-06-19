@@ -26,16 +26,17 @@
     padding-bottom: 73px;
     .logo {
         float: left;
+        margin-left: 3px;
     }
     .menu {
         float: right;
-        margin-top: 8px;
+        margin-top: 4px;
         .link {
             letter-spacing: 0.1em;
             text-decoration: none;
             text-transform: uppercase;
             color: #000000;
-            margin-left: 41px;
+            margin-left: 40px;
             &:hover{
                 color: #34547A;
             }
@@ -50,7 +51,7 @@
     padding-bottom: 165px;
     &-img {
         float: left;
-        padding-top: 15px;
+        padding-top: 12px;
     }
     &_article {
         float: right;
@@ -58,14 +59,15 @@
         margin-left: 30px;
         &-title {
             font-size: 48px;
-            font-weight: bold;
+            font-weight: normal;
             line-height: 79px;
             color: #000000;
-            padding-bottom: 54px;
+            padding-bottom: 33px;
+            margin-top: -22px;
         }
         &-text {
             color: #727272;
-            padding-bottom: 82px;
+            padding-bottom: 73px;
         }
         &-btn {
             letter-spacing: 0.1em;
@@ -78,22 +80,22 @@
     }
 }
 .work {
-    padding-top: 55px;
+    padding-top: 45px;
     padding-bottom: 95px;
     &-title {
         font-size: 48px;
-        font-weight: bold;
+        font-weight: normal;
         line-height: 56px;
         text-align: center;
         color: #000000;
-        padding-bottom: 33px;
+        padding-bottom: 22px;
     }
     &-text {
         text-align: center;
         color: #727272;
         width: 540px;
         margin: 0 auto;
-        padding-bottom: 57px;
+        padding-bottom: 50px;
     }
 }
 .example {
@@ -101,7 +103,7 @@
     padding-bottom: 86px;
     &-img {
         margin-right: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 28px;
         float: left;
     }
 }
@@ -112,7 +114,7 @@
     background: #34547A;
 }
 .footer {
-    padding-top: 42px;
+    padding-top: 39px;
     padding-bottom: 38px;
     &-left {
         float: left;
@@ -121,7 +123,7 @@
             font-size: 21px;
             line-height: 25px;
             color: #FFFFFF;
-            margin-bottom: 18px;
+            margin-bottom: 10px;
         }
         &-text {
             font-weight: normal;
@@ -133,7 +135,7 @@
     &-right {
         float: right;
         a {
-            margin-left: 32px;
+            margin-left: 27px;
         }
     }
 }
