@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: 'Tahoma', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.wrapper1 {
+  background: #EEEFF1;
+}
+
+.header {
+  padding-top: 71px;
+  padding-bottom: 73px;
+}
+
+.header .logo {
+  float: left;
+}
+
+.header .menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.header .menu .link {
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 41px;
+}
+
+.header .menu .link:hover {
+  color: #34547A;
+}
+
+.wrapper2 {
+  background: #F9F9F9;
+}
+
+.design {
+  padding-top: 85px;
+  padding-bottom: 165px;
+}
+
+.design-img {
+  float: left;
+  padding-top: 15px;
+}
+
+.design_article {
+  float: right;
+  width: 540px;
+  margin-left: 30px;
+}
+
+.design_article-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 79px;
+  color: #000000;
+  padding-bottom: 54px;
+}
+
+.design_article-text {
+  color: #727272;
+  padding-bottom: 82px;
+}
+
+.design_article-btn {
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #34547A;
+  padding: 22px 44px;
+}
+
+.work {
+  padding-top: 55px;
+  padding-bottom: 95px;
+}
+
+.work-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 33px;
+}
+
+.work-text {
+  text-align: center;
+  color: #727272;
+  width: 540px;
+  margin: 0 auto;
+  padding-bottom: 57px;
+}
+
+.example {
+  padding-top: 140px;
+  padding-bottom: 86px;
+}
+
+.example-img {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  float: left;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.wrapper3 {
+  background: #34547A;
+}
+
+.footer {
+  padding-top: 42px;
+  padding-bottom: 38px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left-title {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.footer-left-text {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-right a {
+  margin-left: 32px;
+}
+/*# sourceMappingURL=style.css.map */
